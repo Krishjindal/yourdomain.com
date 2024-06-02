@@ -1,0 +1,229 @@
+.con{
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 50%;
+    align-items: center;
+}
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#award{
+    color: hotpink;
+}
+.Contact{
+    background-color: red;
+    border: 1px solid;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    color: white;
+}
+
+.overlay-container { 
+    display: none; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background: rgba(0, 0, 0, 0.6); 
+    justify-content: center; 
+    align-items: center; 
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+} 
+fieldset{
+    background-color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.inp { 
+    border: none; 
+    font-size: 16px; 
+    box-sizing: border-box; 
+} 
+.form-btn{
+    padding: 12px 24px; 
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    width: 100%;
+    background-color: deeppink;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+ /* Keyframes for fadeInUp animation */ 
+ @keyframes fadeInUp { 
+    from { 
+        opacity: 0; 
+        transform: translateY(20px); 
+    } 
+
+    to { 
+        opacity: 1; 
+        transform: translateY(0); 
+    } 
+} 
+
+/* Animation for popup */ 
+.overlay-container.show { 
+    display: flex; 
+    opacity: 1; 
+} 
+.btn-close-popup{
+    float: right;
+    background-color: deeppink;
+    color: white;
+    font-weight: bold;
+}
+.section2{
+    margin-top: 50px;
+    margin-left: 100px;
+    align-items: center;
+}
+.exp{
+    display: flex;
+    margin-right: 200px;
+}
+#para{
+    margin-left: 150px;
+}
+.box{
+    /**border: 2px solid black;**/
+    height: 400px;
+    width:23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-img,.overlay{
+    height: 400px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+.overlay{
+opacity: 0;
+cursor: pointer;
+}
+.box-img:hover .overlay{
+    opacity: 1;
+}
+
+
+.ima{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box-content{
+    color: white;
+    text-align: center;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    margin-top: 100px;
+    margin-left: 120px;
+}
+
+.read{
+    border: 1px solid;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 100px;
+    color: red;
+}
+.radio{
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+
+.sec3-con{
+    text-align: center;
+    justify-content: space-evenly;
+}
+#our{
+    color: hotpink;
+}
+
+.img-btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.back{
+    height: 450px;
+    width:50%;
+    padding: 20px 0px 15px;
+}
+.sec3{
+    height: 450px;
+    background-size: cover;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+.but{
+    width: 270px;
+    height: 150px;
+    justify-content: space-evenly;
+    border: none;
+    background-color: floralwhite;
+}
+.btn{
+    margin-top: 20px;
+}
+#sec{
+    background-color: red;
+    color: white;
+}
+
+.sec4-btn{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.sec4{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  justify-content: center;
+  font-family: 'serif';
+  border: none;
+}
+.head{
+    font-size: xxx-large;
+}
+
+.te{
+    font-size: 15px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec4:hover{
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px) translateX(-10px);
+
+}
+
+.section4{
+    background-color: gainsboro;
+}
+
+.highlighted {
+    border: 5px solid deeppink;
+    display: block; 
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fyle</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+</head>
+<body>
+    <div class="section">
+    <div class="con">
+    <h2 id="award">AWARD WINNING</h2>
+    <h1>DIGITAL MARKETING AGENCY</h1>
+        <p>Morbi sed lacus nec risus finibus et fermentum nibh. Pellentesque <br>
+        vitac ante at elit fringilla ac at purus.Morbi sed lacus nec risus finibus<br>
+        feugiat et fermentum</p>
+        <br>
+        <br>
+        <br>
+        <button class="Contact" onclick="togglePopup()">Contact us</button>
+    </div>
+    <div class="im"><img src="first.png" >
+    </div>
+    </div>
+    <div id="popupOverlay" 
+         class="overlay-container"> 
+    <form name="myform" action="https://getform.io/f/lajkgegb" method="post">
+        <fieldset>
+            <button class="btn-close-popup" onclick="togglePopup">x</button>
+            <h2 style="font-weight: bold;">Talk to us</h2>
+            <input  name="mail" class="inp" placeholder="Work Email*" style="border: none;"><hr>
+            <br>
+            <input type="text" name="First name"   class="inp" placeholder="First name*" style="border: none;">
+            <input type="text" name="last name"   class="inp" placeholder="last name*" style="border: none;">
+            <hr>
+            <br>
+            <input type="checkbox" id="check" name="check">I agree to Fyle's terms and conditions, and provide 
+            <br>consent to send me communication.
+            <br>
+            <br>
+            <button type="submit" class="form-btn">Contact us</button>
+        </fieldset>
+    </form>
+    </div>
+    <div class="section2">
+        <h2 id="award">What we do</h2>
+        <div class="exp">
+        <h1>SERVICES PROVIDE FOR YOU</h1>
+        <P id="para">Morbi sed lacus nec risus finibus et fermentum nibh. Pellentesque <br>
+            vitac ante at elit fringilla ac at purus.Morbi sed lacus nec risus finibus<br>
+            feugiat et fermentum</P>
+        </div>
+    </div>
+        <div class="ima">
+            <div class="box" id="box1" name="boxes">
+                    <div class="box-img" id="box1-img" style="background-image: url('box4_image.jpg');">
+                        <div class="overlay"  style="background-color:deeppink;" >
+                            <img src="webd.png" class="icon">
+                            <br>
+                            <div class="box-content">
+                            <h3>WEB DEVELOPMENT</h3>
+                            <p>Morbi sed lacus nec risus finibus feugiat
+                                et fermentum nibh. Pellentesque
+                            </p> 
+                            <button class="read" onclick="openWebpage()">Read more</button>    
+                        </div>
+                          </div></div>
+                          <div class="radio">
+                            <input type="radio" name="option" id="a1" onclick="highlight('box1-img')">
+                            <input type="radio" name="option" id="a2" onclick="highlight('box2-img')">
+                            <input type="radio" name="option" id="a3" onclick="highlight('box3-img')">
+                            <input type="radio" name="option" id="a4" onclick="highlight('box4-img')">
+                           </div>
+            </div>
+                <div class="box" id="box2" name="boxes">
+                        <div class="box-img" id="box2-img" style="background-image: url('box6_image.jpg');">
+                            <div class="overlay" style="background-color:deeppink;">
+                                <img src="webd.png" class="icon">
+                                <br>
+                                <div class="box-content">
+                                <h3>WEB DEVELOPMENT</h3>
+                                <p>Morbi sed lacus nec risus finibus feugiat
+                                    et fermentum nibh. Pellentesque
+                                </p> 
+                                <button class="read" onclick="openWebpage()">Read more</button>    
+                            </div>
+                              </div>
+                        </div>
+                </div>
+                <div class="box" id="box3" name="boxes">
+                        <div class="box-img" id="box3-img" style="background-image: url('box7_image.jpg');">
+                            <div class="overlay" style="background-color:deeppink;">
+                                <img src="webd.png" class="icon">
+                                <br>
+                                <div class="box-content">
+                                <h3>WEB DEVELOPMENT</h3>
+                                <p>Morbi sed lacus nec risus finibus feugiat
+                                    et fermentum nibh. Pellentesque
+                                </p> 
+                                <button class="read" onclick="openWebpage()">Read more</button>    
+                            </div>
+                              </div></div>
+                </div>
+                <div class="box" id="box4" name="boxes"> 
+                    <div class="box-img" id="box4-img" style="background-image: url('nat.jpg');">
+                        <div class="overlay" style="background-color:deeppink;">
+                            <img src="webd.png" class="icon">
+                            <br>
+                            <div class="box-content">
+                            <h3>WEB DEVELOPMENT</h3>
+                            <p>Morbi sed lacus nec risus finibus feugiat
+                                et fermentum nibh. Pellentesque
+                            </p> 
+                            <button class="read" onclick="openWebpage()">Read more</button>    
+                        </div>
+                          </div>
+                      </div>
+                   </div>
+    </div>
+    <br>
+    <br>
+    <div class="section3">
+        <div class="sec3-con">
+        <h2 id="our">OUR PROJECT</h2>
+        <h1>WHY WE ARE BEST</h1>
+        </div>
+        <div class="img-btn">
+            <div class="back">
+        <div class="sec3" id="imag" style="background-image: url(sec3i.png);"></div>
+                </div>
+        <div class="btn">
+        <button class="but" id="first" onclick="oneclick()"><h3>Genderless Kei-Japan's Hot</h3>
+        Set to launch on the manufacturer's new A330neQ aircraft in 2017. it's offering lots of</button><br>
+        <button class="but" id="sec" onclick="twoclick()"><h3>Better Strategy & Quality</h3>
+        <p>Set to launch on the manufacturer's new A330neo aircraft in 2017.it's offering lots of</p></button><br>
+        <button class="but" id="third" onclick="thirdclick()"><h3>Genderless Kei-Japan's Hot</h3>
+            Set to launch on the manufacturer's new A330neQ aircraft in 2017. it's offering lots of</button>
+        </div>
+        </div>
+    </div>
+    <div class="section4">
+        <div class="sec3-con">
+        <h2 id="our">EXPERTS GROWTH</h2>
+        <h1>OUR COMPANY GROWTH</h1>
+        </div>
+        <div class="sec4-btn">
+        <button class="sec4"><i class="fa-solid fa-heart fa-2xl" style="color: #f20226;"></i><h1 class="head">199+</h1><p class="te">Saticfied Customers</p></button>
+        <button class="sec4"><i class="fa-solid fa-clock fa-2xl" style="color: #f20226;"></i><h1 class="head">1591+</h1><p class="te">Days Of Operation</p></button>
+        <button class="sec4"><i class="fa-solid fa-circle-check fa-2xl" style="color: #f20226;"></i><h1 class="head">283+</h1><p class="te">Complete Project</p></button>
+        <button class="sec4"><i class="fa-solid fa-trophy fa-2xl" style="color: #f20226;"></i><h1 class="head">75+</h1><p class="te">Win Awards</p></button>
+           
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
